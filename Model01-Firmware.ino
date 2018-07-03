@@ -67,6 +67,7 @@
 
 // OneShot plugin
 #include "Kaleidoscope-OneShot.h"
+#include "Kaleidoscope-Escape-OneShot.h"
 #include <kaleidoscope/hid.h>
 
 /** This 'enum' is a list of all the macros used by the Model 01's firmware
@@ -383,7 +384,8 @@ KALEIDOSCOPE_INIT_PLUGINS(
   USBQuirks,
 
   // OneShot
-  OneShot
+  OneShot,
+  EscapeOneShot
 );
 
 /** The 'setup' function is one of the two standard Arduino sketch functions.
