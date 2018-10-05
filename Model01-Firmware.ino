@@ -146,14 +146,14 @@ KEYMAPS(
    Key_PageUp,   Key_A,         Key_O,     Key_E,      Key_U, Key_I,
    Key_PageDown, Key_Semicolon, Key_Q,     Key_J,      Key_K, Key_X, Key_Escape,
    OSM(LeftControl), Key_Backspace, OSM(LeftGui), OSM(LeftShift),
-   ShiftToLayer(FUNCTION),
+   OSL(FUNCTION),
 
    M(MACRO_ANY),   Key_6, Key_7, Key_8, Key_9, Key_0, LockLayer(NUMPAD),
    Key_Enter,      Key_F, Key_G, Key_C, Key_R, Key_L, Key_Slash,
                    Key_D, Key_H, Key_T, Key_N, Key_S, Key_Minus,
    OSM(RightGui),   Key_B, Key_M, Key_W, Key_V, Key_Z, Key_Equals,
    OSM(RightShift), OSM(LeftAlt), Key_Spacebar, OSM(RightControl),
-   ShiftToLayer(FUNCTION)),
+   OSL(FUNCTION)),
 
   [NUMPAD] =  KEYMAP_STACKED
   (___, ___, ___, ___, ___, ___, ___,
@@ -174,8 +174,8 @@ KEYMAPS(
   (___,      Key_F1,           Key_F2,      Key_F3,     Key_F4,        Key_F5,           XXX,
    Key_Tab,  ___,              Key_mouseUp, ___,        Key_mouseBtnR, Key_mouseWarpEnd, Key_mouseWarpNE,
    Key_Home, Key_mouseL,       Key_mouseDn, Key_mouseR, Key_mouseBtnL, Key_mouseWarpNW,
-   Key_End,  Key_PrintScreen,  Key_Insert,  ___,        Key_mouseBtnM, Key_mouseWarpSW,  Key_mouseWarpSE,
-   ___, Key_Delete, ___, ___,
+   Key_End,  Key_PrintScreen,  Key_Insert,  ___,        Key_mouseBtnM, Key_mouseWarpSW,  Key_Escape,
+   Key_mouseWarpSE, Key_Delete, ___, ___,
    ___,
 
    Consumer_ScanPreviousTrack, Key_F6,                 Key_F7,                   Key_F8,                   Key_F9,          Key_F10,          Key_F11,
